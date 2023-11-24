@@ -8,13 +8,7 @@ html, body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h5{
-    color: #171629;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-}
-
+/* HEADER  */
 header{
     height: 7vh;
     background: #232232;
@@ -108,6 +102,40 @@ nav{
     transform: translateX(0);
 }
 
+            /* SECTION */
+section{
+    padding: 2rem 7%;
+}
+
+.Inicio{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/personal\ growi.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.Inicio .content{
+    max-width: 60rem;
+}
+
+.Inicio .content h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 6rem;
+}
+
+.Inicio .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+       /* JAVASCRIPT */
 @keyframes navLinkFade {
     from {
             opacity: 0;
