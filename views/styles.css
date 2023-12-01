@@ -212,3 +212,12 @@ section{
     .next {
         right: 10px;
     }
+
+        /*CATEGORIA*/
+
+.categorias{
+    padding: 2rem 7%;
+    display: flex;
+    max-width: 60rem;
+    height: 100vh;
+}
