@@ -119,12 +119,17 @@ section{
 
 .Inicio .content{
     max-width: 60rem;
+    
 }
 
 .Inicio .content h3{
     color: #fff;
     text-transform: uppercase;
     font-size: 6rem;
+    position: absolute;
+
+    top: 15px;
+    left: 16px;
 }
 
 .Inicio .content p{
@@ -133,6 +138,7 @@ section{
     line-height: 1.8;
     padding: 1rem 0;
     color: #fff;
+
 }
 
        /* JAVASCRIPT */
