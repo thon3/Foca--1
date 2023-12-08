@@ -1,216 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-
-    <title>FOCAI</title>
+    <title>Foca ai</title>
 </head>
 <body>
-    <header>
-        <div id="first-child-header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-11">
-                        <nav>
-                            <ul class="nav justify-content-end">
-                                <li class="nav-link">
-                                    <a class="nav-link active"href="#">INICIO</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a class="nav-link active"href="#">CATEGORIAS</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a class="nav-link active"href="#">HISTORIAS INSPIRADORAS
-                                    </a>
-                                </li>
-                                <li class="nav-link">
-                                    <a class="nav-link active"href="#">BLOG/ARTIGO</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a class="nav-link active"href="#">SOBRE MIM</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+    <div class="quote-container" id="quote-container">
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">what your are is what you have been, what you'll be is what u do now.</span>
         </div>
-    </header>
-
-    <section id="content-mobile-first">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6 text-right">
-                    <h6>(Mobile First)</h6>
-                    <h2> Na mao do seu cliente!</h2>
-                    <p>Aqui voce descansa com a tranquilidade de ter seus clientes acessando seus produtos na palma das maos.
-                    <br>
-                    <br>
-                    Todos os nossos projetos sao voltados para a melhor experiencia do usuario mobile, fazemos o processo contrario, criando o primeiro site na versao responsiva e depois para a tela grande.
-                    </p>
-                    <a href="#" class="link">
-                        MEU NEGOCIO MERECE SER VISTO
-                    </a>
-                </div>
-                <div class="col-6">
-                    <img src="./flower.jpeg" alt="flor">
-                </div>
-            </div>
+        <div class="quote-author">
+            <span id="author">Buddha</span>
         </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 service">
-                    <div>
-                        <img src="./Captura de ecrã de 2023-08-24 14-27-34.png" alt="WHATSAPP">
-                        <h5>Site comercial</h5>
-                        <p>Tenha seu site comercial, a sua empresa merece um cuidado especial</p>
-                    </div>
-                </div>
-                <div class="col-4 service negative">
-                    <div>
-                        <img src="./logo.png" alt="venda">
-                    <h5>E-commerce</h5>
-                    <p>Ja pensou em vender todos os dias pela internet? Voce precisa de uma loja para alcancar as suas vendas</p>
-                    </div>
-                </div>
-                <div class="col-4 service">
-                    <div>
-                        <img src="./Captura de ecrã de 2023-08-24 14-27-34.png" alt="icone de trabalho">
-                    <h5>Site comercial</h5>
-                    <p>Ja pensou em algo custo benefico? Pensamos em um simples site </p>
-                    </div>
-                </div>
-    </section>
-
-    <section id="process">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-7 text-center">
-                    <h6>Nosso processo de criacao</h6>
-                    <h2>Vamos falar sobre como funciona ?</h2>
-                </div>
-                <div class="col-7 d-flex align-items-center">
-                    <div class="large-text">
-                        1.
-                    </div>
-                    <p>A primeira coisa que fazemos e cong=figurar sua hospedagem, e criar os e-mails profissionais.
-                        Assim voce ja pode comecar a desenvolver o layout do seu projecto.
-                    </p>
-                </div>
-                <div class="col-7 d-flex justify-content-center">
-                    <div class="separator">
-                        
-                    </div>
-                </div>
-                <div class="col-7 d-flex align-items-center text-right">
-                    <p>A primeira coisa que fazemos e cong=figurar sua hospedagem, e criar os e-mails profissionais.
-                        Assim voce ja pode comecar a desenvolver o layout do seu projecto.
-                    </p>
-                    <div class="large-text right">
-                        2.
-                    </div>
-                </div>
-                <div class="col-7 d-flex justify-content-center">
-                    <div class="separator">
-
-                    </div>
-                </div>
-                <div class="col-7 d-flex align-items-center">
-                    <div class="large-text">
-                        3.
-                    </div>
-                    <p>A primeira coisa que fazemos e cong=figurar sua hospedagem, e criar os e-mails profissionais.
-                        Assim voce ja pode comecar a desenvolver o layout do seu projecto.
-                    </p>
-                </div>
-                <div class="col-7 d-flex justify-content-center">
-                    <a href="#" class="link negative margin-top-30">QUERO SEGUIR ESTE PROCESSO</a>
-                </div>
-            </div>
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="tweet this">
+                <i class="fac fa-twitter"></i>
+            </button>
+            <button id="new-quote">new quote</button>
         </div>
-    </section>
+    </div>
 
-    <section id="blog">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-7 text-center">
-                    <h2>Confira o que estamos falando agora</h2>
-                </div>
-
-                <div class="col-8 d-flex align-items-center">
-                    <img src="./WhatsApp Image 2023-06-29 at 09.10.14.jpeg" alt="jhs">
-                    <div>
-                        <h5>Sabe a importancia de estar com sua pagina inserida na internet ?</h5>
-                        <p>Ja pensou em algo benefico? Pensamos em um site simples, para voce chamar de cartao virtual</p>
-                        <a href="#">
-                            <p>ler mais +</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-8 justify-content-center d-flex">
-                    <div class="separator-blog"></div>
-                </div>
-
-                <div class="col-8 d-flex align-items-center">
-                    <img src="./WhatsApp Image 2023-06-29 at 09.10.14.jpeg" alt="jhs">
-                    <div>
-                        <h5>Sabe a importancia de estar com sua pagina inserida na internet ?</h5>
-                        <p>Ja pensou em algo benefico? Pensamos em um site simples, para voce chamar de cartao virtual</p>
-                        <a href="#">
-                            <p>ler mais +</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-8 justify-content-center d-flex">
-                    <div class="separator-blog"></div>
-                </div>
-
-                <div class="col-8 d-flex align-items-center">
-                    <img src="./WhatsApp Image 2023-06-29 at 09.10.14.jpeg" alt="jhs">
-                    <div>
-                        <h5>Sabe a importancia de estar com sua pagina inserida na internet ?</h5>
-                        <p>Ja pensou em algo benefico? Pensamos em um site simples, para voce chamar de cartao virtual</p>
-                        <a href="#">
-                            <p>ler mais +</p>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="col-8 justify-content-center d-flex">
-                    <div class="separator-blog"></div>
-                </div>
-
-                <div class="col-8 d-flex justify-content-center"></div>
-                
-                <div class="col-8 d-flex justify-content-center">
-                    <a href="#" class="link margin-top-30">LER TUDO</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-
-
-    <script src="mobile-navbar.js"></script>
-    <script src="scripts.js"></script>
-
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>
