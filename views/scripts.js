@@ -1,17 +1,16 @@
-let currentIndex = 0;
+async function getQuote(){
+    const proxyUrl = 'https://cors- =anywhere.herokuapp.com/'
+    const apiUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
+    try{
+        const response = await fetch(proxyUrl + apiUrl)
+        const data = await response.json()
+        console.log(data)
+    } catch(error){
+        getQuote()
+        console.log("whoops, no quote", error)
+    }
+}
 
-        function nextSlide() {
-            currentIndex = (currentIndex + 1) % document.querySelectorAll('.card').length;
-            updateSlider();
-        }
 
-        function prevSlide() {
-            currentIndex = (currentIndex - 1 + document.querySelectorAll('.card').length) % document.querySelectorAll('.card').length;
-            updateSlider();
-        }
 
-        function updateSlider() {
-            const cardWidth = document.querySelector('.card').offsetWidth;
-            const translateValue = -currentIndex * cardWidth;
-            document.querySelector('.slider-wrapper').style.transform = `translateX(${translateValue}px)`;
-        }
+getQuote()
