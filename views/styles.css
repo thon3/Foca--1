@@ -1,28 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-html{
-    box-sizing: border-box;
-    background-color: red;
-}
-body{
+*{
     margin: 0;
-    min-height: 100vh;
-    color: #000;
-    font-family: Montseraat, sans-serif;
-    font-weight: 700;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-@media screen and (max-width:1000px) {
-    .quote-container{
-        margin: auto 10px;
-    }
-
-    .quote-text{
-        font-size: 2.5rem;
-    }
+body{
+    background-color: burlywood;
 }
