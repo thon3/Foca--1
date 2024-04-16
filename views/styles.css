@@ -8,18 +8,17 @@
 body{
     background-color: burlywood;
     height: 100vh;
-}
-
-.header{
-    max-width: 1280px;
-    margin: 0 auto;
+    color: azure;
 }
 
 header{
+    max-width: 1280px;
+    margin: 0 auto;
     padding: 40px 4%;
 }
 
-header >. header{
+
+header >.main {
     display: flex;
     align-items: center;
     justify-content: space-between;
