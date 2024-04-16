@@ -8,7 +8,6 @@
 body{
     background-color: burlywood;
     height: 100vh;
-    color: azure;
 }
 
 header{
@@ -18,9 +17,27 @@ header{
 }
 
 
-header >.main {
+header > .main {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+}
+
+header a{
+    color: azure;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(8, 8, 43);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
 }
