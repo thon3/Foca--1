@@ -2,8 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     background-color: burlywood;
+    height: 100vh;
+}
+
+.header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header >. header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
