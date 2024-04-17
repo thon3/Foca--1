@@ -27,10 +27,13 @@ header > .main {
 header a{
     color: azure;
     text-decoration: none;
+    display: inline-block;
+    transition: .2s;
 }
 
 header a:hover{
     color: rgb(8, 8, 43);
+    transform: scale(1.55);
 }
 
 header nav ul{
