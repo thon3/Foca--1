@@ -77,15 +77,3 @@ main .about button{
     justify-content: center;
 }
 
-setion .about button{
-    animation: floating 2s ease-in-out infinite alternate;
-}
-
-@keyframes floating{
-    0%{
-        top: 0;
-    }
-    100%{
-        top: 100px;
-    }
-}
