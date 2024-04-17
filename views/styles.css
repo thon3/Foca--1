@@ -76,3 +76,14 @@ main .about button{
     align-items: center;
     justify-content: center;
 }
+
+
+
+@keyframes floating{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 100px;
+    }
+}
