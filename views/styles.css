@@ -84,9 +84,18 @@ main .about button{
     justify-content: center;
 }
 
+.slide-content{
+    margin: 0 40px;
+}
+
 .card{
     border-radius: 25px;
     background-color: #FFF;
+}
+
+.image-content, 
+.card-content{
+    padding: 10px 14px;
 }
 
 .card-image{
