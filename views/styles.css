@@ -98,5 +98,5 @@ main .about button{
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #B59E4F;
+    border: 3px solid rgb(240, 228, 228);
 }
