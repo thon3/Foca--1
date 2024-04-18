@@ -89,12 +89,16 @@ main .about button{
 }
 
 .card{
+    width: 320px;
     border-radius: 25px;
     background-color: #FFF;
 }
 
-.image-content, 
+.image-content,
 .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px 14px;
 }
 
@@ -113,4 +117,16 @@ main .about button{
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid rgb(240, 228, 228);
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
 }
