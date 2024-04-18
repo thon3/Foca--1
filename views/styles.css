@@ -89,4 +89,6 @@ main .about button{
     display: flex;
     height: 150px;
     width: 150px;
+    border-radius: 50%;
+    padding: 3px;
 }
