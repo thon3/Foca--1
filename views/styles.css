@@ -92,3 +92,11 @@ main .about button{
     border-radius: 50%;
     padding: 3px;
 }
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #B59E4F;
+}
