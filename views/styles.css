@@ -16,6 +16,9 @@ header{
     padding: 40px 4%;
 }
 
+.flex{
+    display: flex;
+}
 
 header > .main {
     display: flex;
@@ -63,4 +66,16 @@ header .botao button:hover{
 
 section.topo-do-site{
     padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #FFF;
+    font-size: 42px;
+    line-height: 40px;
 }
