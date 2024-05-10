@@ -118,4 +118,6 @@ section#categorias{
 
 #categorias .cat-1{
     color: #FFF;
+    align-items: center;
+    text-align: center; 
 }
