@@ -104,4 +104,18 @@ section#topo-do-site .flex{
     }
 }
 
-section#categorias
+section#categorias{
+    height: 100vh;
+    padding: 40px 4%;
+    background: #000000;
+}
+
+#topo-do-site .cat{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+#categorias .cat-1{
+    color: #FFF;
+}
