@@ -169,16 +169,12 @@ section#categorias{
     color: #fff;
 }
 
-section{
-    padding: 80px 13% 70px;
-}
-
-.footer{
+footer{
     background: #FFF4F4;
-    
+    /*padding: 60px 100px;*/
 }
 
-.footer{
+footer p{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 3.5rem;
