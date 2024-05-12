@@ -172,8 +172,71 @@ section#categorias{
     right: 0;
     background: #FFF4F4;
     padding: 80px 13% 70px;
+    list-style: none;
 }
 
+
+.footer-content h4{
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+.footer-content li a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover{
+    transform: translateY(-3px) translateX(-3px);
+}
+
+.footer-content p{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icons a{
+    margin-top: 30px;
+    color: #000000;
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icons a:hover{
+    transform: translateY(-5px);
+}
+
+@media(max-width:1690px){
+    section{
+        padding: 50px 5% 40px;
+    }
+}
+
+@media(max-width:1120px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 2rem;
+    }
+}
+
+@media(max-width:700px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+        gap: 2.5rem;
+    }
+}
 
 @keyframes flutuar{
     0%{
