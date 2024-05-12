@@ -164,8 +164,8 @@ section#categorias{
 }
 
 .footer{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    display: flex;
+    justify-content: space-between;
     gap: 3.5rem;
     position: absolute;
     left: 0;

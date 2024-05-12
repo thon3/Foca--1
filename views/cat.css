@@ -14,13 +14,16 @@ body{
 }
 
 header{ 
+    display: inline;
     padding: 80px 13% 70px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 header h1{
     font-size: 100px;
+}
+header p{
+    font-size: 30px;
 }
 
 section{
@@ -31,10 +34,15 @@ span{
     color: rgb(48, 255, 48);
 }
 
+.container h1{
+    font-size: 85px;
+}
+
 .container p{
     margin-top: 2%;
     flex-wrap: wrap;
     font-size: 30px;
+    color: #ccc;
 }
 
 .card-container{
@@ -75,7 +83,6 @@ span{
     padding: 10px 50px;
     position: relative;
     width: 50%;
-    background: rgba(0, 0, 0, 0.3);
 }
 
 .container p, 
@@ -97,4 +104,66 @@ small{
 
 .right-container{
     left: 50%;
+}
+
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container img{
+    left: -20px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.text-box h2{
+    font-weight: 600;
+}
+
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+}
+
+.right-container-arrow{
+
 }
