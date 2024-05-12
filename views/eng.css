@@ -121,6 +121,7 @@ small{
 }
 
 .text-box{
+    padding: 10%;
     background: #fff;
     position: relative;
     border-radius: 6px;

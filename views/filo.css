@@ -31,7 +31,7 @@ section{
 }
 
 span{
-    color: rgb(48, 255, 48);
+    color: #ccc;
 }
 
 .container h1{
@@ -121,6 +121,8 @@ small{
 }
 
 .text-box{
+    padding: 10%;
+    background: #fff;
     background: #fff;
     position: relative;
     border-radius: 6px;

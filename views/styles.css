@@ -218,6 +218,18 @@ section#categorias{
     transform: translateY(-5px);
 }
 
+.icons button{
+    color: #ccc;
+    background: #000;
+    display: grid;
+    margin: 8%;
+    font-weight: bold;
+    transition: all .40s ease;
+}
+.icons button:hover{
+    transform: translateY(-3px) translateX(-3px);
+}
+
 @media(max-width:1690px){
     section{
         padding: 50px 5% 40px;
