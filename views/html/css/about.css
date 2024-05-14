@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 80px 13% 70px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+
+header .about{
+    color: #ccc;
+    display: block;
+    justify-content: center;
+}
+
+.about span{
+    color: rgb(133, 255, 133);
+}
