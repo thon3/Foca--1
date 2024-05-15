@@ -1,15 +1,21 @@
 *{
     margin: 0;
-    padding: 80px 13% 70px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background: #000;
+}
+
+body{
+    display: inline;
+    padding: 80px 13% 70px;
+    justify-content: space-between;
 }
 
 header .about{
     color: #ccc;
     display: block;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .about span{
