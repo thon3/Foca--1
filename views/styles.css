@@ -181,12 +181,14 @@ section#categorias{
     background: #FFF4F4;
     padding: 80px 13% 70px;
     list-style: none;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 
 .footer-content h4{
     margin-bottom: 1.5rem;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .footer-content li{
@@ -196,8 +198,8 @@ section#categorias{
     text-decoration: none;
     color: #000000;
     display: block;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: bold;
     transition: all .40s ease;
 }
 
