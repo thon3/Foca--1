@@ -47,6 +47,11 @@ header nav ul li{
     padding: 0 40px;
 }
 
+.menu-header  a{
+    font-size: 32px;
+    font-weight: bold;
+}
+
 header .botao button{
     padding: 10px 40px;
     font-size: 18px;
