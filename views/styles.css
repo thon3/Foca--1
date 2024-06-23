@@ -84,7 +84,7 @@ section#topo-do-site .flex{
 }
 
 #topo-do-site h1{
-    color: #FFF;
+    color: rgb(255, 255, 0);
     font-size: 42px;
     font-weight: bold;
     line-height: 40px;
