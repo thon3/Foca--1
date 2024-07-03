@@ -19,6 +19,7 @@ header{
 }
 
 header > .main {
+    top: auto;      
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,6 +112,19 @@ section#categorias{
     padding: 40px 4%;
     background: #000000;
 }
+
+section#categorias .texto a{
+    color: #fff;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 20px;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 8px;
+    margin: 45rem;
+}
+
 
 #topo-do-site .cat{
     align-items: center;
@@ -259,6 +273,13 @@ section#categorias{
 }
 .icons button:hover{
     transform: translateY(-3px) translateX(-3px);
+}
+
+
+@media(min-width:745px){
+    body{
+        display: block;
+    }
 }
 
 @media(max-width:1690px){
