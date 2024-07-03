@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contacts.css ">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <h2>CONTACTOS</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite o seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite o seu e-mail" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="mesage" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="8c06a281-8c22-4ff4-b7d0-5a8b1033b334">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/views/html/obrigado.html">
+
+            <a href="../index.html" class="btn">Voltar</a>
+        </form>
+    </section>
+   
+    
+</body>
+</html>

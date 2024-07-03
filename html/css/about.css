@@ -1,0 +1,32 @@
+*{
+    margin: 0;  
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+
+body{
+    padding: 80px 13% 70px;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .about{
+    color: #ccc;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about h1{
+    font-size: 75px;
+}
+
+.about span{
+    color: rgb(133, 255, 133);
+}
