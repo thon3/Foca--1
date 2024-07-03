@@ -51,7 +51,7 @@ form input{
     transition: all 0.5s;
 }
 
-form input:hover{
+form input:focus{
     border-radius: 16px;
 }
 
@@ -64,6 +64,23 @@ form textarea{
     transition: all 0.5s;
 }
 
-form textarea:hover{
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: #f5f5f5;
+    color: #101026;
     border-radius: 16px;
 }
